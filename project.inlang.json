@@ -1,0 +1,18 @@
+{
+	"sourceLanguageTag": "en",
+	"languageTags": ["en", "de"],
+	"packages": [
+		"i18nextPlugin.js",
+		"lintPlugin.js"
+	],
+	"settings": {
+		"inlang.plugin.i18next": {
+			"pathPattern": {
+				"client-page": "app/i18n/locales/{languageTag}/client-page.json",
+				"footer": "app/i18n/locales/{languageTag}/footer.json",
+				"second-page": "app/i18n/locales/{languageTag}/second-page.json",
+				"translation": "app/i18n/locales/{languageTag}/translation.json"
+			}
+		}
+	}
+}
